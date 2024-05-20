@@ -2,7 +2,7 @@ from sqlalchemy import Column
 from sqlalchemy import Integer
 from sqlalchemy import String
 
-from ..database import BaseORM
+from ..database.base_orm import BaseORM
 
 class User(BaseORM):
   __tablename__ = "users"
