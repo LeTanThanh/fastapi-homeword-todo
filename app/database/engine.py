@@ -5,10 +5,10 @@ from sqlalchemy_utils import create_database
 
 from urllib.parse import quote_plus
 
-DATABASE_URL = "mysql+pymysql://root:%s@localhost/fastapi-homeword-todo?charset=utf8mb4" % quote_plus("Aa@123456")
+from .engine_url import ENGINE_URL
 
 mysql_engine = create_engine(
-  DATABASE_URL
+  ENGINE_URL
 )
 
 if not database_exists(mysql_engine.url):
