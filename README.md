@@ -22,7 +22,7 @@ poetry install
 - Run server
 
 ```bash
-fastapi dev app/main.py
+poetry run fastapi dev app/main.py
 ```
 
 - Open API doc
