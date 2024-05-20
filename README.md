@@ -1,5 +1,11 @@
 # HOMEWORD TODO
 
+- Create .env file
+
+```bash
+touch .env
+```
+
 - Install Python
 
 ```bash
